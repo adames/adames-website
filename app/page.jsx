@@ -1,3 +1,5 @@
+import Feed from '@components/Feed';
+
 const Home = () => {
     return (
         <section className="w-full flex-center flex-col">
@@ -9,9 +11,9 @@ const Home = () => {
                 </span>
             </h1>
             <p className="desc text-center">
-                This is an open-source Ai tool for sentiment analysis in journaling.
+                This is an open-source AI tool for sentiment analysis in journaling.
             </p>
-            {/* Feed */}
+            <Feed />
         </section>
     )
 }

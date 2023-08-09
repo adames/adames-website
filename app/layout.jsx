@@ -1,8 +1,11 @@
 import '@styles/globals.css';
 
+import Nav from '@components/Nav';
+import Provider from '@components/Provider';
+
 export const metadata = {
     title: "sentiment analysis",
-    description: "AI emmtions"
+    description: "AI emotions"
 }
 
 const RootLayout = ({ children }) => {
@@ -13,6 +16,7 @@ const RootLayout = ({ children }) => {
                     <div className="gradient"/>
                 </div>
                 <main className="app">
+                    <Nav />
                     {children}
                 </main>
             </body>
