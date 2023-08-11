@@ -70,9 +70,7 @@ const Nav = () => {
                 )}
 
             </div>
-
-            {/* Mobile Navigation */}
-
+            {/* Mobile pane Navigation */}
         </nav>
     )
 }
