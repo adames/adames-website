@@ -1,6 +1,6 @@
 const Form = () => {
     return (
-        <div>The input will end up here</div>
+        <div>Missing values here</div>
     )
 }
 
