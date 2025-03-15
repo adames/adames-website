@@ -7,11 +7,11 @@ interface WindowProps {
 const Window = ({ children }: WindowProps) => {
   return (
     <div className="window">
-      <header className="window-header">
-      </header>
-      <body className="window-body">
+      <div className="window-header">
+      </div>
+      <div className="window-body">
         { children }
-      </body>
+      </div>
     </div>
   );
 }
