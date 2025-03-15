@@ -1,10 +1,13 @@
 import './App.css';
+import NavBar from './components/NavBar';
+import Window from './components/Window';
 
 const App = () => {
   return (
     <div className="content">
-      <h1>adames.cc</h1>
-      <p>This will be the home page of my website</p>
+      <Window>
+        <NavBar />
+      </Window>
     </div>
   );
 };
