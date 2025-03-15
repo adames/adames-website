@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import Nav from './components/Nav';
 import Window from './components/Window';
 
 const App = () => {
   return (
     <div className="content">
       <Window>
-        <NavBar />
+        <Nav/>
       </Window>
     </div>
   );
