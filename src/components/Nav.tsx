@@ -6,6 +6,7 @@ const NavContainer = styled.nav`
   border-radius: 5px;
   padding: 10px 20px;
   margin-bottom: 5px;
+  position: relative;
 `;
 
 const NavBar = styled.div`
@@ -13,7 +14,10 @@ const NavBar = styled.div`
   border-radius: 5px;
   padding: 10px 20px;
   margin-bottom: 5px;
+  position: absolute;
+  right: 0;
 `;
+
 const Nav = () => {
   return (
     <NavContainer>
