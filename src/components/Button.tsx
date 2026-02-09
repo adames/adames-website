@@ -6,7 +6,7 @@ interface ButtonProps {
 
 const ButtonContainer = styled.button`
   background-color: orange;
-  color: white;
+  color: red;
   border: none;
   `;
 
