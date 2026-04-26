@@ -20,16 +20,7 @@ const Nav = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <img 
-              src="/assets/svg/logo-color.svg" 
-              alt="adames.cc logo"
-              className="h-8 w-auto dark:hidden"
-            />
-            <img 
-              src="/assets/svg/logo-grayscale-inverted.svg" 
-              alt="adames.cc logo"
-              className="h-8 w-auto hidden dark:block"
-            />
+            <span className="text-xl font-bold text-primary-600 dark:text-primary-400">AH</span>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
