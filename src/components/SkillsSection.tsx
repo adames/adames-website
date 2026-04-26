@@ -17,20 +17,7 @@ const SkillsSection = () => {
     { name: 'User Training', level: 'Advanced' },
   ];
 
-  const tools = [
-    'Zendesk',
-    'Jira', 
-    'Slack', 
-    'Microsoft Office',
-    'Google Workspace',
-    'VS Code',
-    'Git',
-    'Postman',
-    'Chrome DevTools',
-    'Terminal',
-    'Salesforce'
-  ];
-
+  
   return (
     <section id="skills" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -92,22 +79,6 @@ const SkillsSection = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-sm mt-8">
-          <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">
-            Tools & Technologies
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-            {tools.map((tool, index) => (
-              <div 
-                key={index}
-                className="px-3 py-2 bg-primary-50 text-primary-700 rounded-lg text-sm font-medium text-center hover:bg-primary-100 transition-colors duration-200"
-              >
-                {tool}
-              </div>
-            ))}
           </div>
         </div>
       </div>
