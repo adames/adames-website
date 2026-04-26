@@ -15,14 +15,15 @@ const AboutSection = () => {
               Professional Summary
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              As a Developer and Support Specialist, I bring a unique blend of technical expertise 
-              and customer-centric problem-solving skills. My experience spans both development 
+              As a Support Specialist at Junction with a strong foundation in development, I bring a unique blend of technical expertise 
+              and customer-centric problem-solving skills. My experience spans both software development 
               and technical support, allowing me to create solutions that not only work well 
               technically but also provide exceptional user experiences.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
               I specialize in bridging the gap between complex technical systems and end-user needs, 
-              ensuring that technology serves people effectively and intuitively.
+              ensuring that technology serves people effectively and intuitively. My background in both 
+              development and support gives me a comprehensive understanding of the entire product lifecycle.
             </p>
           </div>
           

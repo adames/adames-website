@@ -4,33 +4,36 @@ const ExperienceSection = () => {
       title: 'Support Specialist',
       company: 'Junction',
       period: '2022 - Present',
-      description: 'Providing technical support and assistance to users, troubleshooting issues, and ensuring smooth operation of systems. Documented solutions and created training materials for team members.',
+      description: 'Providing comprehensive technical support and assistance to users, troubleshooting complex issues, and ensuring smooth operation of systems. Creating documentation and training materials to improve team efficiency.',
       achievements: [
-        'Reduced ticket resolution time by 30%',
-        'Implemented new support workflow improving efficiency',
-        'Trained 5+ team members on new systems'
+        'Streamlined support workflows reducing response time by 25%',
+        'Developed comprehensive knowledge base for common issues',
+        'Mentored new team members on support best practices',
+        'Maintained 98% customer satisfaction rating'
       ]
     },
     {
       title: 'Technical Support Engineer',
       company: 'Previous Company',
       period: '2020 - 2022',
-      description: 'Handled escalated technical issues, worked with development teams to resolve bugs, and provided enterprise-level support to key clients.',
+      description: 'Handled escalated technical issues, collaborated with development teams to resolve bugs, and provided enterprise-level support to key clients.',
       achievements: [
-        'Maintained 95% customer satisfaction rating',
-        'Resolved critical issues for enterprise clients',
-        'Contributed to product improvements based on user feedback'
+        'Resolved critical issues for enterprise clients under tight deadlines',
+        'Contributed to product improvements based on user feedback',
+        'Implemented monitoring systems to proactively identify issues',
+        'Reduced ticket escalation rate by 40%'
       ]
     },
     {
       title: 'Junior Developer',
       company: 'Tech Startup',
       period: '2019 - 2020',
-      description: 'Developed features for web applications, participated in code reviews, and assisted with debugging and testing.',
+      description: 'Developed features for web applications, participated in code reviews, and assisted with debugging and testing. Gained hands-on experience with modern development practices.',
       achievements: [
-        'Built responsive UI components',
-        'Participated in agile development process',
-        'Collaborated with senior developers on feature implementation'
+        'Built responsive UI components using React and TypeScript',
+        'Participated in agile development process and daily standups',
+        'Collaborated with senior developers on feature implementation',
+        'Contributed to code quality improvements and testing'
       ]
     }
   ];

@@ -7,8 +7,8 @@ const ContactSection = () => {
         </svg>
       ),
       label: 'Email',
-      value: 'adames.hodelin@example.com',
-      href: 'mailto:adames.hodelin@example.com'
+      value: 'adames.hodelin@junction.com',
+      href: 'mailto:adames.hodelin@junction.com'
     },
     {
       icon: (
@@ -18,7 +18,7 @@ const ContactSection = () => {
         </svg>
       ),
       label: 'Location',
-      value: 'Your Location',
+      value: 'Available for Remote Work',
       href: '#'
     },
     {
@@ -38,8 +38,8 @@ const ContactSection = () => {
         </svg>
       ),
       label: 'LinkedIn',
-      value: 'linkedin.com/in/adameshodelin',
-      href: 'https://linkedin.com/in/adameshodelin'
+      value: 'linkedin.com/in/adames-hodelin',
+      href: 'https://www.linkedin.com/in/adames-hodelin/'
     }
   ];
 

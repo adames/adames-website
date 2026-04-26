@@ -1,40 +1,40 @@
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Support Ticket Management System',
-      description: 'Developed a comprehensive ticket management system to streamline technical support workflows, improve response times, and enhance customer satisfaction.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+      title: 'Support Workflow Automation',
+      description: 'Developed automation tools to streamline technical support workflows, reducing manual ticket processing and improving response times for customer issues.',
+      technologies: ['JavaScript', 'Zendesk API', 'React', 'Node.js'],
       features: [
-        'Real-time ticket tracking',
-        'Automated routing and escalation',
-        'Analytics dashboard',
-        'Knowledge base integration'
+        'Automated ticket categorization',
+        'Smart routing based on issue type',
+        'Response time analytics',
+        'Integration with Slack notifications'
       ],
-      link: '#'
+      link: 'https://github.com/adameshodelin/support-automation'
     },
     {
-      title: 'Customer Training Portal',
-      description: 'Created an interactive training platform for customer onboarding and education, featuring video tutorials, documentation, and progress tracking.',
-      technologies: ['TypeScript', 'React', 'TailwindCSS', 'Firebase'],
+      title: 'Knowledge Base Management System',
+      description: 'Created a comprehensive knowledge base platform for support teams to document solutions, share best practices, and improve team efficiency.',
+      technologies: ['TypeScript', 'React', 'TailwindCSS', 'Express'],
       features: [
-        'Video hosting and streaming',
-        'Interactive quizzes',
-        'Progress tracking',
-        'Certificate generation'
+        'Searchable documentation',
+        'Version control for articles',
+        'User feedback and ratings',
+        'Analytics on article usage'
       ],
-      link: '#'
+      link: 'https://github.com/adameshodelin/knowledge-base'
     },
     {
-      title: 'Technical Documentation Site',
-      description: 'Built a comprehensive documentation platform with search functionality, versioning, and collaborative editing capabilities.',
-      technologies: ['Vue.js', 'Python', 'PostgreSQL', 'Docker'],
+      title: 'Customer Support Dashboard',
+      description: 'Built a real-time dashboard for monitoring support metrics, team performance, and customer satisfaction scores with interactive visualizations.',
+      technologies: ['React', 'Chart.js', 'REST APIs', 'CSS'],
       features: [
-        'Full-text search',
-        'Version control',
-        'API documentation',
-        'User feedback system'
+        'Real-time metrics display',
+        'Interactive charts and graphs',
+        'Team performance tracking',
+        'Customer satisfaction analytics'
       ],
-      link: '#'
+      link: 'https://github.com/adameshodelin/support-dashboard'
     }
   ];
 

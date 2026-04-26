@@ -2,24 +2,24 @@ const SkillsSection = () => {
   const technicalSkills = [
     { name: 'JavaScript/TypeScript', level: 'Advanced' },
     { name: 'React', level: 'Advanced' },
-    { name: 'Node.js', level: 'Intermediate' },
     { name: 'HTML/CSS', level: 'Advanced' },
+    { name: 'Node.js', level: 'Intermediate' },
     { name: 'Python', level: 'Intermediate' },
-    { name: 'SQL', level: 'Intermediate' },
+    { name: 'REST APIs', level: 'Intermediate' },
   ];
 
   const supportSkills = [
     { name: 'Technical Troubleshooting', level: 'Expert' },
-    { name: 'Customer Communication', level: 'Expert' },
+    { name: 'Customer Support', level: 'Expert' },
+    { name: 'Ticket Management', level: 'Expert' },
     { name: 'Documentation', level: 'Advanced' },
-    { name: 'Training & Onboarding', level: 'Advanced' },
-    { name: 'Ticket Management', level: 'Advanced' },
     { name: 'Remote Support', level: 'Expert' },
+    { name: 'User Training', level: 'Advanced' },
   ];
 
   const tools = [
-    'Git', 'VS Code', 'Jira', 'Slack', 'Zendesk', 'Salesforce',
-    'Microsoft Office', 'Google Workspace', 'Docker', 'AWS', 'MongoDB'
+    'Zendesk', 'Jira', 'Slack', 'Microsoft Office', 'Google Workspace',
+    'VS Code', 'Git', 'Postman', 'Chrome DevTools', 'Terminal', 'Salesforce'
   ];
 
   return (

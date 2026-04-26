@@ -6,7 +6,7 @@ const HeroSection = () => {
           Hi, I'm <span className="text-primary-600">Adames Hodelin</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-8">
-          Developer & Support Specialist
+          Support Specialist | Developer | Problem Solver
         </p>
         <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
           Passionate about creating exceptional user experiences and providing top-notch technical support. 
