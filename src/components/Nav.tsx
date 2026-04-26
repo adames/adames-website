@@ -21,12 +21,12 @@ const Nav = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <img 
-              src="/src/assets/svg/logo-color.svg" 
+              src="/assets/svg/logo-color.svg" 
               alt="adames.cc logo"
               className="h-8 w-auto dark:hidden"
             />
             <img 
-              src="/src/assets/svg/logo-grayscale-inverted.svg" 
+              src="/assets/svg/logo-grayscale-inverted.svg" 
               alt="adames.cc logo"
               className="h-8 w-auto hidden dark:block"
             />

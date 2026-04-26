@@ -5,12 +5,12 @@ const HeroSection = () => {
         {/* Logo - Responsive sizing with dark mode support */}
         <div className="mb-8">
           <img 
-            src="/src/assets/svg/logo-color.svg" 
+            src="/assets/svg/logo-color.svg" 
             alt="adames.cc logo"
             className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 mx-auto animate-fade-in dark:hidden"
           />
           <img 
-            src="/src/assets/svg/logo-grayscale-inverted.svg" 
+            src="/assets/svg/logo-grayscale-inverted.svg" 
             alt="adames.cc logo"
             className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 mx-auto animate-fade-in hidden dark:block"
           />
