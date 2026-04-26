@@ -1,32 +1,48 @@
-import Button from "./Button";
-import styled from "styled-components";
-
-const NavContainer = styled.nav`
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-bottom: 5px;
-  position: relative;
-`;
-
-const NavBar = styled.div`
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-bottom: 5px;
-  position: absolute;
-  right: 0;
-`;
-
 const Nav = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const navItems = [
+    { name: 'Home', id: 'hero' },
+    { name: 'About', id: 'about' },
+    { name: 'Skills', id: 'skills' },
+    { name: 'Experience', id: 'experience' },
+    { name: 'Projects', id: 'projects' },
+    { name: 'Contact', id: 'contact' },
+  ];
+
   return (
-    <NavContainer>
-      <NavBar>
-        <Button title="Home" />
-        <Button title="Resume" />
-        <Button title="Github" />
-      </NavBar>
-    </NavContainer>
+    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          <div className="flex-shrink-0">
+            <span className="text-xl font-bold text-primary-600">AH</span>
+          </div>
+          <div className="hidden md:block">
+            <div className="ml-10 flex items-baseline space-x-4">
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                >
+                  {item.name}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="md:hidden">
+            <button className="text-gray-700 hover:text-primary-600 p-2">
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 export default Nav;

@@ -1,14 +1,21 @@
 import Nav from './components/Nav';
-import Window from './components/Window';
-import TitlePage from './components/TitlePage';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import SkillsSection from './components/SkillsSection';
+import ExperienceSection from './components/ExperienceSection';
+import ProjectsSection from './components/ProjectsSection';
+import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
-    <div className="content">
-      <Window>
-        <Nav/>
-        <TitlePage />
-      </Window>
+    <div className="min-h-screen">
+      <Nav />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <ProjectsSection />
+      <ContactSection />
     </div>
   );
 };
