@@ -28,24 +28,24 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <div className="flex items-center space-x-2">
-      <span className="text-sm text-gray-600 dark:text-gray-400 hidden sm:block">
+    <div className="flex items-center space-x-3">
+      <span className="text-base text-gray-600 dark:text-gray-400 hidden sm:block font-medium">
         {isDark ? 'Dark' : 'Light'}
       </span>
       <button
         onClick={toggleDarkMode}
-        className="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 dark:bg-gray-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+        className="relative inline-flex h-8 w-14 items-center rounded-full bg-gray-200 dark:bg-gray-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
         aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
       >
         <span className="sr-only">Toggle dark mode</span>
         <span
-          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-200 ${
-            isDark ? 'translate-x-6' : 'translate-x-1'
+          className={`inline-block h-6 w-6 transform rounded-full bg-white transition-transform duration-200 ${
+            isDark ? 'translate-x-7' : 'translate-x-1'
           }`}
         />
         {/* Sun icon for light mode */}
         <svg
-          className={`absolute left-1 h-4 w-4 text-yellow-500 transition-opacity duration-200 ${
+          className={`absolute left-1.5 h-5 w-5 text-yellow-500 transition-opacity duration-200 ${
             isDark ? 'opacity-0' : 'opacity-100'
           }`}
           fill="none"
@@ -61,7 +61,7 @@ const DarkModeToggle = () => {
         </svg>
         {/* Moon icon for dark mode */}
         <svg
-          className={`absolute right-1 h-4 w-4 text-gray-700 transition-opacity duration-200 ${
+          className={`absolute right-1.5 h-5 w-5 text-gray-700 transition-opacity duration-200 ${
             isDark ? 'opacity-100' : 'opacity-0'
           }`}
           fill="none"
